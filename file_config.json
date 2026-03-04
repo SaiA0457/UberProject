@@ -1,4 +1,4 @@
-{
+[
   {"file":"bulk_rides"}
   {"file":"map_cancellation_reasons"}
   {"file":"map_cities"}
@@ -6,4 +6,4 @@
   {"file":"map_ride_statuses"}
   {"file":"map_vehicle_makes"}
   {"file":"map_vehicle_types"}
-}
+]
