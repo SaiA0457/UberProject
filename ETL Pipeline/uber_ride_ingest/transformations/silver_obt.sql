@@ -29,7 +29,7 @@ AS
                     ,
                 
         
-            map_cities.city as pickup_city, map_cities.state, map_cities.region,
+            map_cities.city as pickup_city, map_cities.state, map_cities.region, map_cities.updated_at as city_updated_at,
                 
         
             map_cancellation_reasons.cancellation_reason 
