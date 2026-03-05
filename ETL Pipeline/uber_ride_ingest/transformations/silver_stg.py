@@ -11,7 +11,7 @@ dp.create_streaming_table("stg_rides")
 
 # Bulk/Initial Load
 @dp.append_flow(
-  target = "stg_rides"
+  target = "stg_rides",
   ) 
 def rides_bulk():
     df = spark.readStream.table("bulk_rides")
@@ -20,7 +20,7 @@ def rides_bulk():
 
 # Streaming Load
 @dp.append_flow(
-  target = "stg_rides"
+  target = "stg_rides",
   ) 
 def rides_stream():
     df = spark.readStream.table("rides_raw")

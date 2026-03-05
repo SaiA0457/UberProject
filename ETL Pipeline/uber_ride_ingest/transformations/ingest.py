@@ -33,3 +33,9 @@ def rides_raw():
     df = df.withColumn("rides",col("value").cast("string"))
 
     return df
+
+
+
+
+
+
